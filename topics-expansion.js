@@ -52,6 +52,6 @@ function rareBlock(data) {
   return `<section class="rare-actions" data-checkpoint="rare-scenario"><div class="expansion-heading"><span class="block-icon">✦</span><div><p class="section-kicker">Маленький план для пригоди</p><h2>${data.title}</h2></div></div><div class="find-now"><article><span>Де шукати</span><p>${data.where}</p></article><article><span>Що зробити одразу</span><p>${data.now}</p></article></div>${shelf}</section>`;
 }
 
-const card = document.querySelector('.topic-card');
-if (card && mechanismExamples[topicId]) card.querySelector('.important').insertAdjacentHTML('beforebegin', mechanismBlock(mechanismExamples[topicId]) + checkBlock());
-if (card && rareScenarios[topicId]) card.querySelector('.important').insertAdjacentHTML('beforebegin', rareBlock(rareScenarios[topicId]));
+const topicCard = document.querySelector('.topic-card');
+if (topicCard && mechanismExamples[topicId]) topicCard.querySelector('.important').insertAdjacentHTML('beforebegin', mechanismBlock(mechanismExamples[topicId]) + checkBlock());
+if (topicCard && rareScenarios[topicId]) topicCard.querySelector('.important').insertAdjacentHTML('beforebegin', rareBlock(rareScenarios[topicId]));
