@@ -25,7 +25,7 @@ button { cursor: pointer; }
 
 .skip-link { position: fixed; top: -5rem; left: 1rem; z-index: 5; padding: .75rem 1rem; color: #fff; background: var(--moss-dark); }
 .skip-link:focus { top: 1rem; }
-.book-shell { width: min(100%, 1060px); margin: 0 auto; padding: 1.25rem clamp(1rem, 3vw, 2.5rem) 3rem; }
+.book-shell { width: min(100%, 1240px); margin: 0 auto; padding: 1.25rem clamp(1rem, 3vw, 2.5rem) 3rem; }
 .topbar { display: flex; gap: 1rem; align-items: center; justify-content: space-between; min-height: 3.55rem; padding: .42rem .7rem; color: #f6f5de; background: linear-gradient(#456b79 0 15%, var(--ui-dark) 15% 84%, #1b3033 84%); border: 4px solid #16292c; box-shadow: inset 3px 3px 0 #7c9a9b, inset -3px -3px 0 #142426, 5px 5px 0 rgb(49 78 45 / 34%); }
 .book-link { display: inline-flex; gap: .55rem; align-items: center; min-height: 2.75rem; color: inherit; font-size: 1rem; font-weight: 900; text-decoration: none; }
 .book-mark { display: grid; width: 2rem; height: 2rem; place-items: center; color: #fff8bd; background: #376a3c; border: 3px solid #152d1c; box-shadow: inset 2px 2px 0 #6aa15a, 2px 2px 0 #0e2021; }
