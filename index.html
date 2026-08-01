@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#263d43" />
+    <meta name="description" content="Візуальний путівник можливостями Minecraft Java Edition для новачків." />
+    <title>Minecraft: Відкривай можливості</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="image" href="assets/opening-cover.jpg" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800;900&family=Russo+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contents">До змісту</a>
+    <main class="home-shell">
+      <header class="topbar">
+        <a class="book-link" href="index.html" aria-label="На головну сторінку">
+          <span class="book-mark" aria-hidden="true">✦</span>
+          <span>Minecraft: відкриття</span>
+        </a>
+        <p class="edition"><span aria-hidden="true"></span> Java Edition 26.2</p>
+      </header>
+
+      <section class="cover" aria-labelledby="cover-title">
+        <figure class="cover-art">
+          <img src="assets/opening-cover.jpg" width="971" height="1600" fetchpriority="high" alt="Юний дослідник дивиться на долину з будинком, селом і печерою" />
+        </figure>
+        <div class="cover-copy">
+          <p class="eyebrow"><span aria-hidden="true"></span> Твій путівник світом</p>
+          <h1 id="cover-title">Minecraft:<br />Відкривай можливості</h1>
+          <p class="cover-lead">Не просто виживай — відкривай, що ще вміє твій світ.</p>
+          <div class="cover-actions">
+            <a class="primary-button" href="#contents">Відкрити зміст <span aria-hidden="true">→</span></a>
+            <a class="continue-link" href="anvil.html" data-continue>Продовжити: Ковадло</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contents" id="contents" aria-labelledby="contents-title">
+        <header class="contents-header">
+          <div>
+            <p class="section-kicker">Зміст</p>
+            <h2 id="contents-title">Обери, що відкрити</h2>
+          </div>
+          <p>Читай по черзі або повертайся до потрібного розділу.</p>
+        </header>
+
+        <div class="continue-panel">
+          <span class="continue-cube" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h7c1.3 0 2.5.5 3.3 1.4C15.2 4.5 16.4 4 17.7 4H20v15h-2.3c-1.4 0-2.7.5-3.7 1.5-1-1-2.3-1.5-3.7-1.5H4zM6 6v11h4.3c.9 0 1.8.2 2.7.6V7.9c-.6-1.2-1.5-1.9-2.7-1.9zm12 0h-.3c-1.2 0-2.1.7-2.7 1.9v9.7c.9-.4 1.8-.6 2.7-.6H18z" /></svg></span>
+          <div><strong data-progress-title>Книга запам’ятає твоє місце</strong><span data-progress-description>Коли повернешся, продовжиш саме з того місця, де зупинився.</span></div>
+          <a href="anvil.html" data-continue>Почати з ковадла →</a>
+        </div>
+
+        <div class="chapter-grid">
+          <article class="chapter-card available">
+            <a class="chapter-main-link" href="anvil.html" aria-label="Відкрити розділ «Зроби речі крутішими» з картки «Ковадло»"></a>
+            <div class="chapter-number">01</div>
+            <div class="chapter-copy"><p>Починаємо тут</p><h3>Зроби речі крутішими</h3><span>Ковадло, точило, зачарування і щит.</span></div>
+            <nav class="chapter-topic-links" aria-label="Картки розділу «Зроби речі крутішими»">
+              <a class="chapter-topic" href="anvil.html" aria-label="Відкрити картку «Ковадло»"><img src="assets/topic-icons/anvil.png" alt="" /></a>
+              <a class="chapter-topic" href="grindstone.html" aria-label="Відкрити картку «Точило»"><img src="assets/topic-icons/grindstone.png" alt="" /></a>
+              <a class="chapter-topic" href="enchanting.html" aria-label="Відкрити картку «Зачарування»"><img src="assets/topic-icons/enchanting.png" alt="" /></a>
+              <a class="chapter-topic" href="shield.html" aria-label="Відкрити картку «Щит»"><img src="assets/topic-icons/shield.png" alt="" /></a>
+            </nav>
+          </article>
+          <article class="chapter-card available">
+            <a class="chapter-main-link" href="barrel.html" aria-label="Відкрити розділ «База, що допомагає» з картки «Бочка»"></a>
+            <div class="chapter-number">02</div>
+            <div class="chapter-copy"><p>Вже можна читати</p><h3>База, що допомагає</h3><span>Корисні блоки, які роблять життя простішим.</span></div>
+            <nav class="chapter-topic-links" aria-label="Картки розділу «База, що допомагає»">
+              <a class="chapter-topic" href="barrel.html" aria-label="Відкрити картку «Бочка»"><img src="assets/topic-icons/barrel.png" alt="" /></a>
+              <a class="chapter-topic" href="smoker.html" aria-label="Відкрити картку «Коптильня»"><img src="assets/topic-icons/smoker.png" alt="" /></a>
+              <a class="chapter-topic" href="blast-furnace.html" aria-label="Відкрити картку «Плавильна піч»"><img src="assets/topic-icons/blast-furnace.png" alt="" /></a>
+              <a class="chapter-topic" href="composter.html" aria-label="Відкрити картку «Компостер»"><img src="assets/topic-icons/composter.png" alt="" /></a>
+            </nav>
+          </article>
+          <article class="chapter-card available">
+            <a class="chapter-main-link" href="villager-job.html" aria-label="Відкрити розділ «Жителі знають секрети» з картки «Професія жителя»"></a>
+            <div class="chapter-number">03</div>
+            <div class="chapter-copy"><p>Вже можна читати</p><h3>Жителі знають секрети</h3><span>Професії, обміни й друзі для твоєї бази.</span></div>
+            <nav class="chapter-topic-links" aria-label="Картки розділу «Жителі знають секрети»">
+              <a class="chapter-topic" href="villager-job.html" aria-label="Відкрити картку «Професія жителя»"><img src="assets/topic-icons/workstation.png" alt="" /></a>
+              <a class="chapter-topic" href="trading.html" aria-label="Відкрити картку «Торгівля»"><img src="assets/topic-icons/emerald.png" alt="" /></a>
+              <a class="chapter-topic" href="librarian.html" aria-label="Відкрити картку «Бібліотекар»"><img src="assets/topic-icons/enchanting.png" alt="" /></a>
+              <a class="chapter-topic" href="zombie-villager.html" aria-label="Відкрити картку «Порятунок зомбі-жителя»"><img src="assets/topic-icons/golden-apple.png" alt="" /></a>
+            </nav>
+          </article>
+          <article class="chapter-card available">
+            <a class="chapter-main-link" href="nether-portal.html" aria-label="Відкрити розділ «Світ не закінчується вдома»"></a>
+            <div class="chapter-number">04</div>
+            <div class="chapter-copy"><p>Вже можна читати</p><h3>Світ не закінчується вдома</h3><span>Портали, Незер, зілля, фортеці й Енд.</span></div>
+            <nav class="chapter-topic-links" aria-label="Картки розділу «Світ не закінчується вдома»">
+              <a class="chapter-topic" href="nether-portal.html" aria-label="Відкрити картку «Портал у Незер»"><img src="assets/topic-icons/nether-portal.png" alt="" /></a>
+              <a class="chapter-topic" href="nether.html" aria-label="Відкрити картку «Незер»"><img src="assets/topic-icons/nether.png" alt="" /></a>
+              <a class="chapter-topic" href="potions.html" aria-label="Відкрити картку «Зілля»"><img src="assets/topic-icons/potion.png" alt="" /></a>
+              <a class="chapter-topic" href="stronghold.html" aria-label="Відкрити картку «Фортеця»"><img src="assets/topic-icons/eye-of-ender.png" alt="" /></a>
+              <a class="chapter-topic" href="end.html" aria-label="Відкрити картку «Енд»"><img src="assets/topic-icons/end.png" alt="" /></a>
+            </nav>
+          </article>
+          <article class="chapter-card available">
+            <a class="chapter-main-link" href="topics.html?topic=redstone" aria-label="Відкрити розділ «Розумні механізми»"></a>
+            <div class="chapter-number">05</div>
+            <div class="chapter-copy"><p>Вже можна читати</p><h3>Розумні механізми</h3><span>Редстоун, спостерігач і блоки-помічники.</span></div>
+            <nav class="chapter-topic-links" aria-label="Картки розділу «Розумні механізми»"><a class="chapter-topic" href="topics.html?topic=redstone" aria-label="Редстоун"><img src="assets/topic-icons/redstone.png" alt="" /></a><a class="chapter-topic" href="topics.html?topic=lever" aria-label="Ричаг"><img src="assets/topic-icons/lever.png" alt="" /></a><a class="chapter-topic" href="topics.html?topic=observer" aria-label="Спостерігач"><img src="assets/topic-icons/observer.png" alt="" /></a><a class="chapter-topic" href="topics.html?topic=dispenser" aria-label="Роздавач"><img src="assets/topic-icons/dispenser.png" alt="" /></a></nav>
+          </article>
+          <article class="chapter-card available">
+            <a class="chapter-main-link" href="topics.html?topic=copper" aria-label="Відкрити розділ «Рідкісні знахідки й хитрощі»"></a>
+            <div class="chapter-number">06</div>
+            <div class="chapter-copy"><p>Вже можна читати</p><h3>Рідкісні знахідки й хитрощі</h3><span>Мідь, віск, Trial Key і незвичайні відкриття.</span></div>
+            <nav class="chapter-topic-links" aria-label="Картки розділу «Рідкісні знахідки й хитрощі»"><a class="chapter-topic" href="topics.html?topic=copper" aria-label="Мідь"><img src="assets/topic-icons/copper.png" alt="" /></a><a class="chapter-topic" href="topics.html?topic=wax" aria-label="Віск"><img src="assets/topic-icons/wax.png" alt="" /></a><a class="chapter-topic" href="topics.html?topic=trial-key" aria-label="Trial Key"><img src="assets/topic-icons/trial-key.png" alt="" /></a><a class="chapter-topic" href="topics.html?topic=shulker-box" aria-label="Шалкерова скринька"><img src="assets/topic-icons/shulker-box.png" alt="" /></a></nav>
+          </article>
+        </div>
+      </section>
+    </main>
+    <script src="home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+# Private working material and local browser profiles
+work/
+outputs/
+
+# Internal project notes and private references
+AGENTS.md
+PROJECT.md
+PLANS.md
+DECISIONS.md
+REFERENCES.md
+UI-KIT.md
+About Project/*
+References/*
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
